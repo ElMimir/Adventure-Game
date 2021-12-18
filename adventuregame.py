@@ -1,4 +1,4 @@
-#adventure game by adam mehter
+#adventure game by ProtogenMehtman
 #debug by minto
 import json
 import sys, time, os
