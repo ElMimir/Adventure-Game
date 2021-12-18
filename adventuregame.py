@@ -3,6 +3,7 @@
 import json
 import sys, time, os
 class Opening:
+    #organisation am i right - Minto
     def startText():
         text="Welcome to the Adventure Game, here you will embark on a journey to defeat the Dragon named Justin, and rescue The Princess Cherry, your story begins in the small town of Jolt, type the commands north, south, east, and west in order to navigate,type the command use followed by the item name to use an item, type the command inventory to look at the items in your posession, type the command look to look around you, type the command search followed by a target to search for people or items, type the command commands to repeat these directions. Good luck"
         for char in text:
@@ -56,7 +57,7 @@ game=on
 place=town
 
 lose=92
-
+#ye - Minto
 def credits(timer:float):
     time.sleep(timer)
     print('\n\n CREDITS  ')
