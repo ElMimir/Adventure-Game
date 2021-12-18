@@ -3,7 +3,7 @@
     "Boss Name": "Justin",
     "Contributors": ["Chris", "Reyes"],
     "Princess": "Cherry",
-    "GameType": "Dungeon",
+    "GameType": "Adventure",
     "hasMusic": false,
     "moveCommands": ["North", "South", "East", "West"],
     "utilCommands": ["Search", "Use", "Look"]
