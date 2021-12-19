@@ -293,4 +293,5 @@ while game==win:
     print ("Congratulations! You beat the Adventure game! Thank you for playing!")
     game=99
     input("Press enter to exit the program")
+    credits(4)
     
