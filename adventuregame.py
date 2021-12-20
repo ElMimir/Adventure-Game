@@ -294,9 +294,6 @@ while game==lose:
 
 while game==win:
     print ("Congratulations! You beat the Adventure game! Thank you for playing!")
-    print("The end")
-    time.sleep(4)
-    print("Or is it?")
     game=99
     input("Press enter to exit the program")
     credits(4)
