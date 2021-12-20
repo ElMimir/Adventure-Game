@@ -31,7 +31,7 @@ class Opening:
             time.sleep(0.1)
     commands()
 items=[]
-
+#yeah
 allPossibleItems=["saw", "3 Gold Pieces", "iron ore", "wood", "battleaxe", "Atari"]
 
 place=1
