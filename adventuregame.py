@@ -205,7 +205,7 @@ while game==on:
                 if "pickaxe" in items:
                     if "iron" in direction:
                         print ("You use the pickaxe to mine the iron ore")
-                        #why the hell doesn't this work
+                        #alright bug fixed
                         items.append ("iron ore")
             else:
                 print ("You cannot use that")
