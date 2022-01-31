@@ -251,10 +251,13 @@ while game==on:
                 while cell==locked:
                     action=input("What would you like to do?")
                     if "key" in action:
-                        cell=1
-                        print ("You unlock the cell door and rescue the Princess!  She hugs you and thanks you for saving her.  You escort her back to Jolt and become a legendary hero!")
-                        game=win
-                        place=dead
+                        if "key in inventory:
+                            cell=1
+                            print ("You unlock the cell door and rescue the Princess!  She hugs you and thanks you for saving her.  You escort her back to Jolt and become a legendary hero!")
+                            game=win
+                            place=dead
+                        else:
+                            print("You don't have the key")
                 else: print ("You head down a long hallway and reach a jail cell holding Princess Catherine, she screams to you for help, but the door is locked.  She tells you the key is in the room and guarded by Justin the Evil Dragon.  You promise her that you will save her and head back to the center of the lair")
 
         elif direction=="north":
