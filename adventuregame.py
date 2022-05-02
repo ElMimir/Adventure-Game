@@ -1,5 +1,4 @@
-#adventure game by adam mehter
-#debug by minto
+#adventure game by Ad10 & MintoCH
 import json
 import sys, time, os
 import getpass
