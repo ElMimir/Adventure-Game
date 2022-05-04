@@ -60,11 +60,11 @@ lose=92
 def credits(timer:float):
     time.sleep(timer)
     print('\n\n CREDITS  ')
-    print('\n\n  DEVS')
-    devs=["Adam Mehter", "Minto"]
+    print('\n\n  DEVS\n')
+    devs=["Ad10", "MintoCH"]
     print(devs)
-    print('\n\nCONTRIBUTORS')
-    contribs=["Chris", "Reyes"]
+    print('\n\nCONTRIBUTORS\n')
+    contribs=["mya5590", "System"]
     print(contribs)
     user = getpass.getuser()
     endingTxt= open('thanks.txt', 'w')
